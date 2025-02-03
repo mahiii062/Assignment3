@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <!-- Navbar -->
+    <nav
+        class="flex items-center justify-between p-4 shadow-md bg-white sticky top-0 z-50 bg-gradient-to-b from-orange-50 to-orange-100">
+
+        <!-- Logo -->
+        <div>
+            <img src="images/logo-header.png" alt="">
+        </div>
+
+        <!-- Nav Links -->
+        <div class="hidden md:flex space-x-6 text-black-700 font-medium">
+            <a href="#" class="hover:text-green-600">Product</a>
+            <a href="#" class="hover:text-green-600">Services</a>
+            <a href="#" class="hover:text-green-600">Contact us</a>
+        </div>
+
+        <!-- Icons & Buttons -->
+        <div class="hidden md:flex items-center space-x-4">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black-700 hover:text-green-500" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21 21l-4.35-4.35M5 11a6 6 0 1112 0 6 6 0 01-12 0z" />
+                </svg>
+            </button>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700 hover:text-green-500" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m10-9l2 9m-6-9v9" />
+                </svg>
+            </button>
+
+            <button class="px-4 py-1 border border-gray-300 rounded hover:bg-green-600">Login</button>
+            <button class="px-4 py-1 bg-green-500 text-white rounded hover:bg-green-600">Register</button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button class="md:hidden" id="menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md p-4 space-y-4">
+        <a href="#" class="block text-black-700 hover:text-green-500">Product</a>
+        <a href="#" class="block text-black-700 hover:text-green-500">Services</a>
+        <a href="#" class="block text-black-700 hover:text-green-500">Contact us</a>
+
+        <!-- Search & Grocery Icons for Mobile -->
+        <div class="flex space-x-4 justify-center">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black-700 hover:text-green-500" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21 21l-4.35-4.35M5 11a6 6 0 1112 0 6 6 0 01-12 0z" />
+                </svg>
+            </button>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black-700 hover:text-green-500" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m10-9l2 9m-6-9v9" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Login & Register Buttons for Mobile -->
+        <button class="w-full border border-gray-300 rounded py-1 hover:bg-gray-100">Login</button>
+        <button class="w-full bg-green-500 text-white rounded py-1 hover:bg-green-600">Register</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section
+        class="flex flex-col items-center justify-center text-center p-6 md:p-16 bg-gradient-to-b from-orange-50 to-orange-100 space-y-8">
+
+        <!-- Hero Text -->
+        <div class="space-y-4">
+            <h1 class="text-3xl md:text-5xl font-bold leading-tight">
+                Freshness <span class="text-green-600">You Can<br>
+                    Count</span> On, Prices You’ll Love!
+            </h1>
+            <p class="text-gray-600 text-lg max-w-xl mx-auto">
+                Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we've got you
+                covered every day!
+            </p>
+        </div>
+
+        <!-- Hero Image -->
+        <div>
+            <img src="images/hero-vegetables.png" alt="" class="w-full max-w-3xl mx-auto">
+        </div>
+    </section>
+
+</body>
+
+</html>
