@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Tailwind</title>
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
@@ -281,7 +284,7 @@
     </section>
 
     <!-- Arrival Section -->
-    <section class="max-w-5xl mx-auto p-6">
+    <section class="mt-16 max-w-5xl mx-auto p-6">
         <!-- Title -->
         <h2 class="text-center text-green-600 text-2xl font-bold mb-4">Arrival & Offers</h2>
 
@@ -321,6 +324,88 @@
 
         </div>
     </section>
+
+    <!-- Final Part -->
+    <section class="bg-white">
+        <div class="relative pt-32 pb-32">
+            <!-- Subscription Section -->
+            <div class="mt-32 max-w-3xl mx-auto relative z-10">
+
+                <div class="bg-gray-100 rounded-lg shadow-lg p-6 md:p-10 flex flex-col md:flex-row items-center
+                    absolute inset-x-0 transform -translate-y-1/2 mx-auto w-11/12 md:w-full">
+                    <img class="w-40 h-40 md:w-56 md:h-56 object-cover" src="images/vegetable-busket.png" alt="">
+
+                    <!-- Right Part -->
+                    <div class="md:ml-8 mt-6 md:mt-0 text-center md:text-left">
+                        <h2 class="text-xl md:text-2xl font-bold text-black-900">Get Grocery News!</h2>
+                        <p class="text-black-600 mt-2">
+                            Exclusive training tips, tricks, product deals and more.
+                        </p>
+
+                        <!-- Box Part -->
+                        <div class="mt-4 flex flex-col md:flex-row items-center">
+                            <input type="" placeholder="Enter email:"
+                                class="w-full md:w-64 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">
+                            <button
+                                class="bg-green-600 text-white px-6 py-2 rounded-md mt-3 md:mt-0 md:ml-2 hover:bg-green-700">Subscribe</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-green-500 text-white pt-32 pb-8 px-4 relative z-2">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+
+            <!-- Image Part -->
+            <div class="text-center md:text-left">
+                <div>
+                    <img src="images/logo-footer.png" alt="">
+                </div>
+                <p class="text-sm mt-2">
+                    Discover a world of treats, toys, and<br>
+                    essentials handpicked for your furry friends.
+                </p>
+            </div>
+
+            <!-- Text Part -->
+            <div class="flex flex-col text-center md:text-left mt-6 md:mt-0">
+                <a href="#" class="hover:underline">
+                    Product
+                </a>
+                <a href="#" class="hover:underline mt-2">
+                    Services
+                </a>
+                <a href="#" class="hover:underline mt-2">
+                    Contact us
+                </a>
+            </div>
+
+            <!-- Social Media Part -->
+            <div class="mt-6 md:mt-0">
+                <h3 class="text-sm font-semibold text-center md:text-left">Follow Us</h3>
+
+                <div class="flex justify-center md:justify-start mt-2 space-x-4">
+                    <a href="#" class="text-white hover:text-gray-300">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-300">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-300">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-300">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
 </body>
 
 </html>
