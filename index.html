@@ -13,6 +13,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <style>
+        @keyframes zoomInOut {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .animate-zoom {
+            animation: zoomInOut 4s infinite ease-in-out;
+        }
+    </style>
+
 </head>
 
 <body class="bg-white text-gray-800">
@@ -109,7 +130,7 @@
         </div>
 
         <!-- Hero Image -->
-        <div>
+        <div class="animate-zoom">
             <img src="images/hero-vegetables.png" alt="" class="w-full max-w-3xl mx-auto">
         </div>
     </section>
