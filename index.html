@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Tailwind</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -111,7 +112,7 @@
     </section>
 
     <!-- Service Section -->
-    <section class="py-10 bg-white max-w-6xl mx-auto px-4">
+    <section class="mt-16 py-10 bg-white max-w-6xl mx-auto px-4">
         <!-- Title -->
         <h2 class="text-center text-3xl font-bold text-green-600 mb-6">Services</h2>
 
@@ -162,6 +163,122 @@
         </div>
     </section>
 
+    <!-- Product Section -->
+    <section class="bg-orange-50 p-4 mt-16">
+        <div class="max-w-5xl mx-auto mt-16 mb-16">
+
+            <!-- Title -->
+            <h2 class="text-center text-green-600 text-2xl font-bold mb-4">Popular Products</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+
+                <!-- Discount Section -->
+                <div
+                    class="bg-gradient-to-r from-green-500 to-green-100 relative bg-green-400 text-white p-6 rounded-xl flex flex-row justify-between md:col-span-4">
+                    <div>
+                        <h3 class="text-2xl mt-8 font-bold">30% off</h3>
+                        <p class="text-sm text-black mt-4">
+                            Discover a world of treats, toys, and<br>
+                            essentials handpicked for you.
+                        </p>
+                        <button class="bg-white text-black px-4 py-2 rounded mt-8 font-semibold">Buy Now</button>
+                    </div>
+
+                    <div class="absolute right-0 bottom-0">
+                        <img src="images/vegetable-offer.png" alt="Vegetables" class="mt-4 w-full">
+                    </div>
+
+                </div>
+
+                <!-- Product Grid -->
+                <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4 md:col-span-8">
+
+                    <!-- Product Cards -->
+                    <div class="bg-white p-4 rounded-lg shadow flex items-center text-left">
+                        <img src="images/onion.png" alt="Onion" class="mx-auto mr-4 bg-orange-100 p-2 rounded-lg">
+                        <div>
+                            <p class="text-yellow-500"><i class="fas fa-star"></i> 4.5</p>
+                            <p class="mt-2 font-semibold">Onion 1KG</p>
+                            <p class="text-gray-500 text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-lg shadow flex items-center text-left">
+                        <img src="images/tomato.png" alt="Tomato" class="mx-auto mr-4 bg-orange-100 p-2 rounded-lg">
+                        <div>
+                            <p class="text-yellow-500"><i class="fas fa-star"></i> 4.5</p>
+                            <p class="mt-2 font-semibold">Tomato 1KG</p>
+                            <p class="text-gray-500 text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-lg shadow flex items-center text-left">
+                        <img src="images/potato.png" alt="Potato" class="mx-auto mr-4 bg-orange-100 p-2 rounded-lg">
+                        <div>
+                            <p class="text-yellow-500"><i class="fas fa-star"></i> 4.5</p>
+                            <p class="mt-2 font-semibold">Potato 1KG</p>
+                            <p class="text-gray-500 text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-lg shadow flex items-center text-left">
+                        <img src="images/tomato.png" alt="Tomato" class="mx-auto mr-4 bg-orange-100 p-2 rounded-lg">
+                        <div>
+                            <p class="text-yellow-500"><i class="fas fa-star"></i> 4.5</p>
+                            <p class="mt-2 font-semibold">Tomato 1KG</p>
+                            <p class="text-gray-500 text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-lg shadow flex items-center text-left">
+                        <img src="images/onion.png" alt="Onion" class="mx-auto mr-4 bg-orange-100 p-2 rounded-lg">
+                        <div>
+                            <p class="text-yellow-500"><i class="fas fa-star"></i> 4.5</p>
+                            <p class="mt-2 font-semibold">Onion 1KG</p>
+                            <p class="text-gray-500 text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-lg shadow flex items-center text-left">
+                        <img src="images/tomato.png" alt="Tomato" class="mx-auto mr-4 bg-orange-100 p-2 rounded-lg">
+                        <div>
+                            <p class="text-yellow-500"><i class="fas fa-star"></i> 4.5</p>
+                            <p class="mt-2 font-semibold">Tomato 1KG</p>
+                            <p class="text-gray-500 text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-lg shadow flex items-center text-left">
+                        <img src="images/onion.png" alt="Onion" class="mx-auto mr-4 bg-orange-100 p-2 rounded-lg">
+                        <div>
+                            <p class="text-yellow-500"><i class="fas fa-star"></i> 4.5</p>
+                            <p class="mt-2 font-semibold">Onion 1KG</p>
+                            <p class="text-gray-500 text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-lg shadow flex items-center text-left">
+                        <img src="images/potato.png" alt="Potato" class="mx-auto mr-4 bg-orange-100 p-2 rounded-lg">
+                        <div>
+                            <p class="text-yellow-500"><i class="fas fa-star"></i> 4.5</p>
+                            <p class="mt-2 font-semibold">Potato 1KG</p>
+                            <p class="text-gray-500 text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-lg shadow flex items-center text-left">
+                        <img src="images/potato.png" alt="Potato" class="mx-auto mr-4 bg-orange-100 p-2 rounded-lg">
+                        <div>
+                            <p class="text-yellow-500"><i class="fas fa-star"></i> 4.5</p>
+                            <p class="mt-2 font-semibold">Potato 1KG</p>
+                            <p class="text-gray-500 text-sm">$39.99</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
